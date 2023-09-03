@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     searchByName("").then(() => {
         // $(".loading-screen").fadeIn(500)
-        $(".loading-screen").fadeOut(500)
+        $(".loading-screen").fadeOut(5000)
         $("body").css("overflow", "visible")
 
     })
