@@ -1,0 +1,121 @@
+/* -------------------------------------------- Setting Up Section -------------------------------------------- */
+
+
+        /* ---------------------------- Default settings Section ---------------------------- */
+  
+:root {
+  --bg-color:#0D0D0D;
+  --menu-header-bg-color:#FFFFFF;
+  --default-text-color:#000000; 
+}
+
+
+
+/* -------------------------------------------- Loading Screens Section -------------------------------------------- */
+        /* ---------------------------- at beginning ---------------------------- */
+.loading-screen {
+  z-index: 999;
+  display: flex;
+}
+
+/* -------------------------------------------- Home Section -------------------------------------------- */
+
+
+body {
+  /* background-color: antiquewhite; */
+  background-color: var(--bg-color);
+}
+
+
+body{
+  background-color: #0D0D0D;
+  color: #f9f6f6 !important;
+  overflow: hidden;
+}
+
+.menu-body , .form-bg{
+  background-color: #0D0D0D;
+}
+
+
+/* -------------------------------------------- Side Menu Section -------------------------------------------- */
+
+.side-menu {
+  z-index: 99;
+}
+
+.menu-body {
+  background-color: var(--bg-color);
+}
+
+.menu-links {
+  list-style: none;
+  overflow: hidden;
+}
+
+.menu-links li {
+  cursor: pointer;
+  top: 300px;
+}
+
+i , .cursor-pointer {
+  cursor: pointer;
+}
+
+
+.menu-links li, .menu-footer {
+  color: white;
+}
+
+
+.form-bg:focus {
+  background-color: #0D0D0D;
+  color: white;
+}
+
+
+
+        /* ---------------------------- Main Header  ---------------------------- */
+
+
+
+.logo {
+  width: 50px;
+}
+
+
+
+.loading-screen{
+  z-index: 999;
+  display: flex;
+}
+
+
+
+.inner-loading-screen {
+  position: absolute;
+  z-index: 9;
+  background-color: var(--bg-color);
+  display: flex;
+}
+
+
+
+.alert{
+  width: fit-content;
+}
+/* -------------------------------------------- Search Display Section -------------------------------------------- */
+
+
+
+.meal-layer {
+  width: 100%;
+  height: 100%;
+  background-color: #f9f6f6ca;
+  top: 100%;
+  transition: .5s;
+}
+
+.meal:hover .meal-layer{
+  top: 0;
+}
